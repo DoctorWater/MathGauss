@@ -78,6 +78,12 @@ build CMakeFiles/MathGauss.dir/function.cpp.obj: CXX_COMPILER__MathGauss_Debug D
   OBJECT_DIR = CMakeFiles\MathGauss.dir
   OBJECT_FILE_DIR = CMakeFiles\MathGauss.dir
 
+build CMakeFiles/MathGauss.dir/Lejandr.cpp.obj: CXX_COMPILER__MathGauss_Debug D$:/Projects/MathGauss/Lejandr.cpp || cmake_object_order_depends_target_MathGauss
+  DEP_FILE = CMakeFiles\MathGauss.dir\Lejandr.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  OBJECT_DIR = CMakeFiles\MathGauss.dir
+  OBJECT_FILE_DIR = CMakeFiles\MathGauss.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target MathGauss
@@ -86,7 +92,7 @@ build CMakeFiles/MathGauss.dir/function.cpp.obj: CXX_COMPILER__MathGauss_Debug D
 #############################################
 # Link the executable MathGauss.exe
 
-build MathGauss.exe: CXX_EXECUTABLE_LINKER__MathGauss_Debug CMakeFiles/MathGauss.dir/main.cpp.obj CMakeFiles/MathGauss.dir/Gauss.cpp.obj CMakeFiles/MathGauss.dir/function.cpp.obj
+build MathGauss.exe: CXX_EXECUTABLE_LINKER__MathGauss_Debug CMakeFiles/MathGauss.dir/main.cpp.obj CMakeFiles/MathGauss.dir/Gauss.cpp.obj CMakeFiles/MathGauss.dir/function.cpp.obj CMakeFiles/MathGauss.dir/Lejandr.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MathGauss.dir

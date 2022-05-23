@@ -1,7 +1,9 @@
 # ninja log v5
-2	396	6744076625929682	CMakeFiles/MathGauss.dir/main.cpp.obj	e49e5a2c7355853
-396	518	6744076627136448	MathGauss.exe	ac38c65a059bbd17
-11	259	6744257328759997	CMakeFiles/MathGauss.dir/Gauss.cpp.obj	d916ea50221b113c
-21	341	6744257329587785	CMakeFiles/MathGauss.dir/function.cpp.obj	e646daa08ce1c758
 3	614	6744257332314745	CMakeFiles/MathGauss.dir/main.cpp.obj	e49e5a2c7355853
+11	259	6744257328759997	CMakeFiles/MathGauss.dir/Gauss.cpp.obj	d916ea50221b113c
 614	812	6744257334284952	MathGauss.exe	fd855b24483e9c9a
+21	341	6744257329587785	CMakeFiles/MathGauss.dir/function.cpp.obj	e646daa08ce1c758
+20	261	6750108178757489	CMakeFiles/MathGauss.dir/Lejandr.cpp.obj	b9875edc0654d1d
+13	335	6750108179489490	CMakeFiles/MathGauss.dir/Gauss.cpp.obj	d916ea50221b113c
+4	555	6750108181700482	CMakeFiles/MathGauss.dir/main.cpp.obj	e49e5a2c7355853
+555	888	6750108185001850	MathGauss.exe	90a114c60b7347a1

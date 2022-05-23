@@ -2,7 +2,6 @@
 #include <conio.h>
 #include <math.h>
 #include "Gauss.h"
-const int n = 5;
 const int N = 100;
 
 using namespace std;
@@ -10,7 +9,9 @@ int main()
 {
     double a;
     double b;
-    cin >> a >> b;
+    int n;
+    cout << "Enter lower limit, upper limit and degree of precision" << endl;
+    cin >> a >> b >> n;
     double s = 0.0;
     for(int i = 0; i < N; ++i)
     {
